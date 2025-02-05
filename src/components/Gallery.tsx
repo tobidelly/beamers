@@ -1,30 +1,38 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
+import badge from './Assets/badge.jpg';
+import blue from './Assets/blue.jpg';
+import classOne from './Assets/class0ne.jpg';
+import classroom from './Assets/classroom.jpg';
+import students from './Assets/students.jpg';
+import teaching from './Assets/teaching.jpg';
+
+
 
 const galleryImages = [
   {
-    url: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&auto=format&fit=crop&q=60",
-    caption: "Students engaged in interactive learning"
+    url: badge,
+    caption: "Beamers International Badge"
   },
   {
-    url: "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&auto=format&fit=crop&q=60",
+    url: blue,
     caption: "Our modern school facilities"
   },
   {
-    url: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&auto=format&fit=crop&q=60",
-    caption: "Art and creativity sessions"
+    url: classOne,
+    caption: "Classroom learning environment"
   },
   {
-    url: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&auto=format&fit=crop&q=60",
-    caption: "Well-stocked library"
+    url: classroom,
+    caption: "Classroom learning environment"
   },
   {
-    url: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&auto=format&fit=crop&q=60",
-    caption: "Science laboratory activities"
+    url: students,
+    caption: "Student break time"
   },
   {
-    url: "https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&auto=format&fit=crop&q=60",
-    caption: "Sports and physical education"
+    url: teaching,
+    caption: "Interactive learning sessions"
   },
   {
     url: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&auto=format&fit=crop&q=60",

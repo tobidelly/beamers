@@ -1,5 +1,6 @@
 import React from 'react';
 import { Clock, Award } from 'lucide-react';
+import logo from './Assets/logo.png';
 
 export const About: React.FC = () => {
   return (
@@ -29,9 +30,11 @@ export const About: React.FC = () => {
           </div>
           <div className="relative h-[400px]">
             <img
-              src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&q=80"
-              className="w-full h-full object-cover rounded-lg shadow-xl"
-              alt="School building"
+              src={logo}
+              /*className="w-full h-full object-cover rounded-lg shadow-xl" */
+              className="w-full h-full object-contain rounded-lg shadow-xl"
+
+              alt="logo"
             />
           </div>
         </div>
