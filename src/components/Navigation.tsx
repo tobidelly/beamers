@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { BookOpen, X, Menu } from 'lucide-react';
+import logo from './Assets/logo.png';
+import { Menu, X } from "lucide-react";
+
 
 interface NavigationProps {
   isMobileMenuOpen: boolean;
@@ -32,9 +34,9 @@ export const Navigation: React.FC<NavigationProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-2">
-            <BookOpen className="h-8 w-8 text-white" />
-            <span className="text-white font-bold text-xl">Beamers International Schools</span>
+            <img src={logo} alt="Logo" className="h-16 w-auto" />
           </Link>
+
           
           {/* Desktop Navigation */}
           <div className="hidden md:block">
