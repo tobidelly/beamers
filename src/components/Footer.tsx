@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, MapPin, Phone, Mail, Facebook, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
+import { MapPin, Phone, Mail, Facebook, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
 import logo from './Assets/logo.png';
 
 export const Footer: React.FC = () => {
